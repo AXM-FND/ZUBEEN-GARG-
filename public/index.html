@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="Zubeen Garg — The Voice. The Legend.">
+<meta property="og:title" content="Zubeen Garg — The Legacy">
+<meta property="og:description" content="A monochrome digital archive celebrating Zubeen Garg.">
+<title>Zubeen Garg — The Legacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Manrope:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#home"><img src="/assets/zubeen-logo.png" alt="Zubeen Garg"></a>
+  <button class="hamburger" id="openMenu" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-video"><video autoplay muted loop playsinline preload="auto" aria-label="Zubeen Garg cinematic hero video"><source src="/assets/zubeen-hero-first-15-seconds.mp4" type="video/mp4"></video></div>
+    <div class="hero-vignette"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">THE VOICE. THE LEGEND.</p>
+      <h1>ZUBEEN<br>GARG</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-description">A singer. A composer. A musician. A filmmaker. An icon who redefined Assamese music and inspired millions across the world.</p>
+      <a class="outline-btn" href="/about.html">EXPLORE HIS WORLD <span>→</span></a>
+      <button class="watch-btn" id="watchBtn"><span class="play-ring">▶</span> WATCH VIDEO</button>
+    </div>
+  </section>
+
+  <section class="video-strip radio-stage" id="videos" aria-label="Zubeen Garg radio visual">
+    <div class="radio-machine">
+      <div class="radio-topline">
+        <span class="radio-brand">ZUBEEN GARG</span>
+        <span class="radio-live"><i></i> RADIO VISUAL</span>
+      </div>
+
+      <div class="cassette-deck" aria-hidden="true">
+        <div class="cassette-reel reel-left"><span class="reel-core"></span><span class="reel-spoke s1"></span><span class="reel-spoke s2"></span><span class="reel-spoke s3"></span><span class="reel-spoke s4"></span><span class="reel-spoke s5"></span><span class="reel-spoke s6"></span></div>
+        <div class="cassette-window">
+          <div class="cassette-tape"></div>
+          <span>ZUBEEN GARG</span><small>OFFICIAL VISUAL · PLAYLIST</small>
+        </div>
+        <div class="cassette-reel reel-right"><span class="reel-core"></span><span class="reel-spoke s1"></span><span class="reel-spoke s2"></span><span class="reel-spoke s3"></span><span class="reel-spoke s4"></span><span class="reel-spoke s5"></span><span class="reel-spoke s6"></span></div>
+      </div>
+
+      <div class="radio-display">
+        <div><small>NOW TUNED TO</small><strong>ZUBEEN GARG</strong><span>OFFICIAL YOUTUBE PLAYLIST</span></div>
+        <div class="vu-meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+
+      <div class="video-player-wrap">
+        <div class="video-player-head"><span>OFFICIAL YOUTUBE</span><a href="https://www.youtube.com/playlist?list=PL3cTse0YhM79CcS9HP_BpzPkuJe94EYV7" target="_blank" rel="noopener">OPEN ↗</a></div>
+        <div class="video-player">
+          <iframe id="ambientVideo" src="https://www.youtube.com/embed/videoseries?list=PL3cTse0YhM79CcS9HP_BpzPkuJe94EYV7&autoplay=0&playsinline=1&rel=0&enablejsapi=1" title="Zubeen Garg official video playlist" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="video-player-note"><span id="videoState">READY</span><button class="video-sound" id="videoSound" type="button">PLAY WITH SOUND</button></div>
+      </div>
+
+      <div class="radio-controls">
+        <span>FM · ZUBEEN GARG</span>
+        <span class="radio-frequency">ZUBEEN · LIVE VISUAL</span>
+        <span>VOL ▮▮▮</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-card section" id="about">
+    <div class="about-photo"><img src="/assets/about.jpg" alt="Zubeen Garg portrait" loading="lazy"></div>
+    <div class="about-text">
+      <p class="mini-title">ABOUT ZUBEEN GARG</p>
+      <p id="aboutLive">Loading verified biography…</p>
+      <a href="/about.html">READ MORE <span>→</span></a>
+    </div>
+  </section>
+
+  <section class="about-expanded section" id="about-details">
+    <div class="section-head"><h2>ABOUT THE LEGACY</h2><span>LIVE VERIFIED DATA</span></div>
+    <div class="about-facts" id="aboutFacts"></div>
+  </section>
+
+  <section class="quick-nav" aria-label="Explore">
+    <a href="#music"><span>♫</span><small>Music</small></a>
+    <a href="#movies"><span>▤</span><small>Movies</small></a>
+    <a href="#gallery"><span>▧</span><small>Gallery</small></a>
+  </section>
+
+  <section class="section" id="music">
+    <div class="section-head"><h2>TOP SONGS</h2><a href="/music.html">VIEW MORE ↗</a></div>
+    <div class="catalog-status"><span class="status-dot"></span><span id="catalogStatus">LIVE CATALOG · CONNECTING</span><time id="catalogUpdated"></time></div>
+    <div class="song-grid" id="songGrid"></div>
+    <div class="catalog-tools"><a href="/music.html">VIEW MORE SONGS ↗</a><a href="https://music.apple.com/in/search?term=Zubeen%20Garg" target="_blank" rel="noopener">OFFICIAL CATALOG ↗</a></div>
+  </section>
+
+  <section class="section" id="movies">
+    <div class="section-head"><h2>FILMS</h2><a href="/movies.html">VIEW MORE ↗</a></div>
+    <div class="movie-grid" id="movieGrid"></div>
+    <div class="catalog-tools"><a href="/movies.html">VIEW ALL FILMS ↗</a><a href="https://www.justwatch.com/in/search?q=Zubeen%20Garg" target="_blank" rel="noopener">WHERE TO WATCH ↗</a></div>
+  </section>
+
+  <section class="section" id="archive">
+    <div class="section-head"><h2>THE ARCHIVE</h2><span class="archive-count" id="archiveCount">PUBLIC RECORD</span></div>
+    <div class="archive-panel">
+      <div><small>RECORDED SONGS</small><strong class="normal-number" id="songCount">38,000+</strong><p>A vast recorded catalogue spanning Assamese, Hindi and other Indian-language music.</p></div>
+      <div><small>LANGUAGES / DIALECTS</small><strong class="normal-number" id="languageCount">40+</strong><p>A multilingual body of work spanning Assamese, Hindi, Bengali and many regional dialects.</p></div>
+      <div><small>FILM CREDITS</small><strong class="normal-number" id="filmCount">—</strong><p>Screen credits documented in the site film archive.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="section-head"><h2>MOMENTS CAPTURED</h2><a href="#gallery">VIEW ALL</a></div>
+    <div class="moment-grid"><img src="/assets/moment1.jpg" alt="Zubeen Garg performing live" loading="lazy"><img src="/assets/moment2.jpg" alt="Zubeen Garg concert moment" loading="lazy"></div>
+  </section>
+
+
+
+  <footer class="footer" id="footer">
+    <div class="footer-photo"><img src="/assets/footer.jpg" alt="Zubeen Garg live" loading="lazy"></div>
+    <div class="footer-overlay"><img src="/assets/zubeen-logo.png" alt="Zubeen Garg"><p>THE LEGEND LIVES ON.</p></div>
+    <div class="footer-bottom"><small>© <span id="year"></span> Zubeen Garg Official Archive.</small><div><a href="/privacy.html">Privacy Policy</a><b>|</b><a href="/terms.html">Terms &amp; Conditions</a></div><div class="photo-credit">Concert photography: Gitartha.bordoloi · Wikimedia Commons · CC BY-SA 4.0</div></div>
+  </footer>
+</main>
+
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head"><img src="/assets/zubeen-logo.png" alt="Zubeen Garg"><button id="closeMenu" aria-label="Close menu">×</button></div>
+  <div class="drawer-quote"><img src="/assets/drawer.jpg" alt="Zubeen Garg"><div><p>“Music<br>never dies.”</p><small>— Zubeen Garg</small></div></div>
+  <nav class="drawer-nav">
+    <a href="#home"><span>⌂</span><em>Home</em><b>→</b></a>
+    <a href="/about.html"><span>♙</span><em>About</em><b>→</b></a>
+    <a href="#music"><span>♫</span><em>Music</em><b>⌄</b></a>
+    <a href="#movies"><span>▣</span><em>Movies</em><b>⌄</b></a>
+    <a href="#gallery"><span>▧</span><em>Gallery</em><b>⌄</b></a>
+    <a href="https://www.youtube.com/@Zubeengargoffical" target="_blank" rel="noopener"><span>▷</span><em>Videos</em><b>→</b></a>
+    <a href="#archive"><span>▤</span><em>Archive</em><b>→</b></a><a href="#footer"><span>✉</span><em>Contact</em><b>→</b></a>
+  </nav>
+  <div class="connect"><p>CONNECT</p>
+    <a href="https://www.youtube.com/@Zubeengargoffical" target="_blank" rel="noopener"><span>◉</span>YouTube<b>→</b></a>
+    <a href="https://music.apple.com/in/search?term=Zubeen%20Garg" target="_blank" rel="noopener"><span>●</span>Apple Music<b>→</b></a>
+    <a href="https://open.spotify.com/search/Zubeen%20Garg" target="_blank" rel="noopener"><span>◌</span>Spotify<b>→</b></a>
+  </div>
+  <div class="drawer-end"><img src="/assets/footer.jpg" alt="Zubeen Garg live" loading="lazy"><p>© <span id="drawerYear"></span> Zubeen Garg Official.</p><small>All Rights Reserved.</small></div>
+</aside>
+
+<script src="/app.js" defer></script>
+</body>
+</html>
